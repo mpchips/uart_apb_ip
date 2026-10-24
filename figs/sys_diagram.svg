@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1150" viewBox="0 0 1240 1150" font-family="Consolas, 'Courier New', monospace">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <style>
+      .wire { stroke:#333; stroke-width:1.4; fill:none; }
+      .bus  { stroke:#333; stroke-width:3;   fill:none; }
+      .lbl  { font-size:11px; fill:#1a1a1a; }
+      .port { font-size:10px; fill:#6b6b6b; }
+      .title{ font-size:15px; font-weight:bold; fill:#1a1a1a; }
+      .tag  { font-size:10px; fill:#6b6b6b; }
+      .body { font-size:11px; fill:#333; }
+      .old  { fill:#E8F0FB; stroke:#2F5D9E; stroke-width:1.6; }
+      .glue { fill:#F4F4F4; stroke:#777; stroke-width:1.4; stroke-dasharray:5 3; }
+      .dot  { fill:#333; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1240" height="1150" fill="#ffffff"/>
+
+  <!-- Heading -->
+  <text x="20" y="34" font-size="18" font-weight="bold" fill="#1a1a1a">APB UART: system diagram</text>
+
+  <!-- Top-level boundary -->
+  <rect x="120" y="70" width="1000" height="990" fill="none" stroke="#555" stroke-width="2"/>
+  <text x="134" y="94" class="title">uart_apb_top</text>
+
+  <!-- Clock and reset -->
+  <path class="wire" d="M20,125 L160,125" marker-end="url(#arr)"/>
+  <text x="28" y="119" class="lbl">pclk</text>
+  <text x="168" y="129" class="body">clk  (to every block except apb_interface)</text>
+  <path class="wire" d="M20,155 L160,155" marker-end="url(#arr)"/>
+  <text x="28" y="149" class="lbl">prstn</text>
+  <text x="168" y="159" class="body">nrst (to every block except apb_interface)</text>
+
+  <!-- APB group -->
+  <text x="28" y="212" font-size="11" font-weight="bold" fill="#1a1a1a">APB (AMBA 2)</text>
+  <path class="wire" d="M20,250 L200,250" marker-end="url(#arr)"/>
+  <text x="28" y="245" class="lbl">psel</text>
+  <path class="wire" d="M20,290 L200,290" marker-end="url(#arr)"/>
+  <text x="28" y="285" class="lbl">penable</text>
+  <path class="wire" d="M20,330 L200,330" marker-end="url(#arr)"/>
+  <text x="28" y="325" class="lbl">pwrite</text>
+  <path class="bus" d="M20,370 L200,370" marker-end="url(#arr)"/>
+  <text x="28" y="364" class="lbl">paddr[3:0]</text>
+  <path class="bus" d="M20,410 L200,410" marker-end="url(#arr)"/>
+  <text x="28" y="404" class="lbl">pwdata[7:0]</text>
+  <path class="bus" d="M200,450 L20,450" marker-end="url(#arr)"/>
+  <text x="28" y="444" class="lbl">prdata[7:0]</text>
+
+  <!-- apb_interface -->
+  <rect x="200" y="220" width="180" height="820" rx="4" class="old"/>
+  <text x="290" y="248" class="title" text-anchor="middle">apb_interface</text>
+  <text x="290" y="510" class="body" text-anchor="middle">APB2 completer</text>
+  <text x="290" y="526" class="body" text-anchor="middle">(2-cycle, no wait</text>
+  <text x="290" y="542" class="body" text-anchor="middle">states)</text>
+  <text x="290" y="564" class="body" text-anchor="middle">address decode</text>
+  <text x="290" y="580" class="body" text-anchor="middle">strobe generation</text>
+  <text x="290" y="596" class="body" text-anchor="middle">prdata read mux</text>
+  <text x="290" y="620" class="tag" text-anchor="middle">combinational only:</text>
+  <text x="290" y="633" class="tag" text-anchor="middle">no clk, no nrst, no state</text>
+
+  <!-- uart_tx -->
+  <rect x="760" y="190" width="160" height="150" rx="4" class="old"/>
+  <text x="840" y="214" class="title" text-anchor="middle">uart_tx</text>
+  <text x="766" y="264" class="port">tx_start</text>
+  <text x="766" y="294" class="port">data_i[7:0]</text>
+  <text x="766" y="324" class="port">ready</text>
+  <text x="914" y="279" class="port" text-anchor="end">tx_out</text>
+
+  <path class="wire" d="M380,260 L760,260" marker-end="url(#arr)"/>
+  <text x="570" y="255" class="lbl" text-anchor="middle">tx_start *</text>
+  <path class="bus" d="M380,290 L760,290" marker-end="url(#arr)"/>
+  <text x="570" y="284" class="lbl" text-anchor="middle">txd_in[7:0]</text>
+  <path class="wire" d="M760,320 L380,320" marker-end="url(#arr)"/>
+  <text x="570" y="315" class="lbl" text-anchor="middle">tx_ready</text>
+
+  <path class="wire" d="M920,275 L1230,275" marker-end="url(#arr)"/>
+  <text x="1130" y="269" class="lbl">txd</text>
+
+  <!-- RX FIFO -->
+  <rect x="530" y="420" width="130" height="220" rx="4" class="old"/>
+  <text x="595" y="444" class="title" text-anchor="middle">rx_fifo</text>
+  <text x="595" y="460" class="tag" text-anchor="middle">module: fifo</text>
+  <text x="595" y="474" class="tag" text-anchor="middle">RX_FIFO_DEPTH x 8</text>
+  <text x="536" y="494" class="port">rden</text>
+  <text x="536" y="534" class="port">data_o</text>
+  <text x="536" y="574" class="port">empty</text>
+  <text x="536" y="614" class="port">full</text>
+  <text x="654" y="514" class="port" text-anchor="end">wren</text>
+  <text x="654" y="574" class="port" text-anchor="end">data_i</text>
+
+  <path class="wire" d="M380,490 L530,490" marker-end="url(#arr)"/>
+  <text x="388" y="485" class="lbl">rxf_pop *</text>
+  <path class="bus" d="M530,530 L380,530" marker-end="url(#arr)"/>
+  <text x="388" y="524" class="lbl">rxf_data[7:0]</text>
+  <path class="wire" d="M530,570 L380,570" marker-end="url(#arr)"/>
+  <text x="388" y="565" class="lbl">rxf_empty</text>
+  <path class="wire" d="M530,610 L380,610" marker-end="url(#arr)"/>
+  <text x="388" y="605" class="lbl">rxf_full</text>
+
+  <!-- uart_rx -->
+  <rect x="760" y="420" width="160" height="220" rx="4" class="old"/>
+  <text x="840" y="444" class="title" text-anchor="middle">uart_rx</text>
+  <text x="766" y="514" class="port">rx_done</text>
+  <text x="766" y="574" class="port">data_o[7:0]</text>
+  <text x="914" y="544" class="port" text-anchor="end">rx</text>
+  <text x="914" y="634" class="port" text-anchor="end">rx_err</text>
+  <text x="840" y="592" class="tag" text-anchor="middle">debouncer, rx_counter,</text>
+  <text x="840" y="605" class="tag" text-anchor="middle">rx_shifter,</text>
+  <text x="840" y="618" class="tag" text-anchor="middle">rx_controller</text>
+
+
+  <!-- rx_done: uart_rx -> rx_fifo wren -->
+  <path class="wire" d="M760,510 L660,510" marker-end="url(#arr)"/>
+  <text x="710" y="504" class="lbl" text-anchor="middle">rx_done *</text>
+
+  <!-- rxd_out -->
+  <path class="bus" d="M760,570 L660,570" marker-end="url(#arr)"/>
+  <text x="710" y="564" class="lbl" text-anchor="middle">rxd_out[7:0]</text>
+
+  <!-- rx_sync -->
+  <rect x="980" y="490" width="135" height="100" rx="4" class="old"/>
+  <text x="1047" y="512" class="title" text-anchor="middle">rx_sync</text>
+  <text x="1047" y="526" class="tag" text-anchor="middle">module: synchronizer</text>
+  <text x="986" y="544" class="port">sync_o</text>
+  <text x="1109" y="544" class="port" text-anchor="end">async_i</text>
+  <text x="1047" y="566" class="tag" text-anchor="middle">2-FF synchroniser</text>
+  <text x="1047" y="580" class="tag" text-anchor="middle">resets to 1 (idle)</text>
+
+  <path class="wire" d="M980,540 L920,540" marker-end="url(#arr)"/>
+  <text x="950" y="532" class="lbl" text-anchor="middle">rxd_sync</text>
+  <path class="wire" d="M1230,540 L1115,540" marker-end="url(#arr)"/>
+  <text x="1130" y="534" class="lbl">rxd</text>
+
+  <!-- set_ovr glue logic (assign in uart_apb_top) -->
+  <rect x="530" y="660" width="130" height="90" rx="4" class="glue"/>
+  <text x="595" y="680" class="title" text-anchor="middle">set_ovr</text>
+  <text x="595" y="694" class="tag" text-anchor="middle">assign (top)</text>
+  <text x="536" y="714" class="port">rxf_pop</text>
+  <text x="536" y="740" class="port">rxf_full</text>
+  <text x="654" y="714" class="port" text-anchor="end">rx_done</text>
+
+  <!-- rxf_pop and rxf_full branches to set_ovr -->
+  <path class="wire" d="M505,490 L505,710 L530,710" marker-end="url(#arr)"/>
+  <circle cx="505" cy="490" r="3" class="dot"/>
+  <path class="wire" d="M490,610 L490,736 L530,736" marker-end="url(#arr)"/>
+  <circle cx="490" cy="610" r="3" class="dot"/>
+
+  <!-- rx_done branch to set_ovr -->
+  <path class="wire" d="M750,510 L750,710 L660,710" marker-end="url(#arr)"/>
+  <circle cx="750" cy="510" r="3" class="dot"/>
+
+  <!-- set_ovr -> rx_ovr_flag -->
+  <path class="wire" d="M595,750 L595,790" marker-end="url(#arr)"/>
+  <text x="603" y="774" class="lbl">set_ovr *</text>
+
+  <!-- rx_ovr_flag -->
+  <rect x="530" y="790" width="130" height="100" rx="4" class="old"/>
+  <text x="603" y="802" class="port">set</text>
+  <text x="595" y="820" class="title" text-anchor="middle">rx_ovr_flag</text>
+  <text x="595" y="834" class="tag" text-anchor="middle">module: sticky_flag</text>
+  <text x="536" y="854" class="port">clr</text>
+  <text x="536" y="878" class="port">flag</text>
+  <text x="654" y="868" class="tag" text-anchor="end">set wins</text>
+  <text x="654" y="880" class="tag" text-anchor="end">over clr</text>
+
+  <path class="wire" d="M380,850 L530,850" marker-end="url(#arr)"/>
+  <text x="388" y="844" class="lbl">clr_ovr *</text>
+  <path class="wire" d="M530,874 L380,874" marker-end="url(#arr)"/>
+  <text x="388" y="868" class="lbl">rx_ovr</text>
+
+  <!-- rx_err_flag -->
+  <rect x="530" y="920" width="130" height="100" rx="4" class="old"/>
+  <text x="595" y="944" class="title" text-anchor="middle">rx_err_flag</text>
+  <text x="595" y="958" class="tag" text-anchor="middle">module: sticky_flag</text>
+  <text x="536" y="984" class="port">clr</text>
+  <text x="536" y="1008" class="port">flag</text>
+  <text x="654" y="984" class="port" text-anchor="end">set</text>
+  <text x="654" y="1000" class="tag" text-anchor="end">set wins</text>
+  <text x="654" y="1012" class="tag" text-anchor="end">over clr</text>
+
+  <path class="wire" d="M380,980 L530,980" marker-end="url(#arr)"/>
+  <text x="388" y="974" class="lbl">clr_err *</text>
+  <path class="wire" d="M530,1004 L380,1004" marker-end="url(#arr)"/>
+  <text x="388" y="998" class="lbl">rx_err</text>
+
+  <!-- set_err: uart_rx rx_err -> rx_err_flag -->
+  <path class="wire" d="M900,640 L900,980 L660,980" marker-end="url(#arr)"/>
+  <text x="780" y="974" class="lbl" text-anchor="middle">set_err *</text>
+
+  <!-- Legend -->
+  <path class="bus" d="M120,1092 L170,1092"/>
+  <text x="178" y="1096" class="body">multi-bit bus</text>
+  <circle cx="300" cy="1092" r="3" class="dot"/>
+  <text x="310" y="1096" class="body">branch (same net)</text>
+  <text x="460" y="1096" class="body">* = one-cycle pulse</text>
+  <rect x="640" y="1084" width="30" height="16" class="glue"/>
+  <text x="678" y="1096" class="body">glue logic: set_ovr = rx_done &amp; rxf_full &amp; !rxf_pop</text>
+  <text x="120" y="1128" class="body">Single clock domain: clk = pclk (default 25 MHz), nrst = prstn (asynchronous, active low). Only apb_interface sees APB signals.</text>
+</svg>

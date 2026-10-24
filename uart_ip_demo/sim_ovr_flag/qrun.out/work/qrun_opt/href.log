@@ -1,0 +1,9 @@
+BEGIN 1:rx_controller:fast:work
+    bit_idx :  1:uart_ovr_tb:fast:work
+END 
+BEGIN 1:uart_apb_top:fast:work
+    clr_ovr :  1:uart_ovr_tb:fast:work
+    rxf_pop :  1:uart_ovr_tb:fast:work
+    rxf_full :  1:uart_ovr_tb:fast:work
+    rx_done :  1:uart_ovr_tb:fast:work
+END 

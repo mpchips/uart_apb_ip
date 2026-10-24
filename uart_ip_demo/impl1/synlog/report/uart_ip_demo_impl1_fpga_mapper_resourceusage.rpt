@@ -1,0 +1,40 @@
+Resource Usage Report
+Part: lfd2nx_40-9
+
+Register bits: 102 of 32256 (0%)
+PIC Latch:       0
+I/O cells:       25
+
+Details:
+CCU2:           23
+DPR16X4:        2
+FD1P3BX:        3
+FD1P3DX:        99
+GSR:            1
+IB:             16
+INV:            1
+LUT4:           148
+OB:             9
+VHI:            14
+VLO:            14
+WIDEFN9:        3
+
+Resource Usage inside macros:
+Registers: 0
+LUTs: 0
+EBRs: 0
+LRAMs: 0
+DSPs: 0
+Distributed RAMs: 0
+Carry Chains: 0
+Blackboxes: 0
+
+Mapping Summary:
+Total number of registers: 102 + 0 = 102 of 32256 (0.32%)
+Total number of LUTs: 148 + 0 = 148 
+Total number of EBRs: 0 + 0 = 0 of 84 (0.00%)
+Total number of LRAMs: 0 + 0 = 0 of 2 (0.00%)
+Total number of DSPs: 0 + 0 = 0 of 56 (0.00%)
+Total number of Distributed RAMs: 2 + 0 = 2 
+Total number of Carry Chains: 23 + 0 = 23 
+Total number of BlackBoxes: 29 + 0 = 29 

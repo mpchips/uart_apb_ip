@@ -1,0 +1,438 @@
+# Sun Oct 25 00:15:39 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: X-2025.09LR-SP1
+Install: C:\lscc\radiant\2026.1.1\synpbase
+OS: Windows 10 or later
+Hostname: LMNL115229
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202509latsp1, Build 110R, Built Aug  2 2026 22:56:51, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 203MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 203MB)
+
+Reading custom part data from path: C:\lscc\radiant\2026.1.1\synpbase\lib\lattice_custom\radiant_custom_partdata.txt
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 201MB peak: 203MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 203MB peak: 205MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
+
+@N: MF135 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\fifo.v":44:4:44:9|RAM rx_fifo.buffer\[0\][7:0] is 16 words by 8 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 262MB peak: 263MB)
+
+@N: MO231 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\rx_controller.v":41:4:41:9|Found counter in view:work.rx_controller(verilog) instance bit_idx[3:0] 
+@N: MO231 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\debouncer.v":60:4:60:9|Found counter in view:work.debouncer_1302s_0_1_2(verilog) instance count[10:0] 
+@N: MO231 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\rx_counter.v":14:4:14:9|Found counter in view:work.rx_counter_2604s(verilog) instance count[11:0] 
+@N: MO231 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\uart_tx.v":91:4:91:9|Found counter in view:work.uart_tx_25s_9600s_2604s_0_1_2_3(verilog) instance bit_idx[3:0] 
+@N: MO231 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\uart_tx.v":105:4:105:9|Found counter in view:work.uart_tx_25s_9600s_2604s_0_1_2_3(verilog) instance count[11:0] 
+
+Finished area decomp  (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 263MB peak: 263MB)
+
+@N: MF794 |RAM rx_fifo.buffer\[0\][7:0] required 16 registers during mapping 
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 264MB peak: 264MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:03s; Memory used current: 264MB peak: 264MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:03s; Memory used current: 264MB peak: 265MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:04s; Memory used current: 265MB peak: 265MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:04s; Memory used current: 265MB peak: 266MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:04s; Memory used current: 265MB peak: 266MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:04s; Memory used current: 265MB peak: 266MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:05s; Memory used current: 271MB peak: 271MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:05s		    35.64ns		 139 /       102
+Net buffering Report for view:work.uart_apb_top(verilog):
+Added 0 Buffers
+Added 0 Registers via replication
+Added 0 LUTs via replication
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:05s; Memory used current: 271MB peak: 272MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\fifo.v":44:4:44:9|Generating RAM rx_fifo.buffer\[0\][7:0]
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:05s; Memory used current: 272MB peak: 272MB)
+
+@W: FX310 |Ignoring option "-dcc_insertion" since the technology does not support DCC. 
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:05s; Memory used current: 272MB peak: 273MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:05s; Memory used current: 272MB peak: 273MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:05s; Memory used current: 218MB peak: 273MB)
+
+Writing Analyst data base C:\Users\mpiatos\Documents\Personal\design_projects\uart\uart_ip_demo\impl1\synwork\uart_ip_demo_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:06s; Memory used current: 272MB peak: 273MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:06s; Memory used current: 274MB peak: 274MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: BW278 :"c:/users/mpiatos/documents/personal/design_projects/uart/uart_ip_demo/impl1/uart_ip_demo_impl1_cpe.ldc":3:0:3:0|Clock pclk source pin pclk.pclk
+@N: BW279 :"c:/users/mpiatos/documents/personal/design_projects/uart/uart_ip_demo/impl1/uart_ip_demo_impl1_cpe.ldc":3:0:3:0|Clock pclk drive pin pclk.pclk
+@N: BW281 :"c:/users/mpiatos/documents/personal/design_projects/uart/uart_ip_demo/impl1/uart_ip_demo_impl1_cpe.ldc":3:0:3:0|Forward annotating clock pclk on drive pins would remove that clock from 104 clock pins including rx_err_flag.flag.CK
+@W: BW295 :"c:/users/mpiatos/documents/personal/design_projects/uart/uart_ip_demo/impl1/uart_ip_demo_impl1_cpe.ldc":3:0:3:0|Forward annotation of clocks to input pins not allowed for this technology. Forward annotating clock pclk on driving pins
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:06s; Memory used current: 274MB peak: 274MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:06s; Memory used current: 274MB peak: 275MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:07s; Memory used current: 273MB peak: 275MB)
+
+@N: MT615 |Found clock pclk with period 40.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sun Oct 25 00:15:58 2026
+#
+
+
+Top view:               uart_apb_top
+Requested Frequency:    25.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\lscc\radiant\2026.1.1\scripts\tcl\flow\radiant_synplify_vars.tcl
+                       C:\Users\mpiatos\Documents\Personal\design_projects\uart\uart_ip_demo\impl1\uart_ip_demo_impl1_cpe.ldc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 34.715
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+pclk               25.0 MHz      189.2 MHz     40.000        5.285         34.715     declared     default_clkgroup
+System             200.0 MHz     NA            5.000         NA            38.923     system       system_clkgroup 
+===================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+System    pclk    |  40.000      38.923  |  No paths    -      |  No paths    -      |  No paths    -    
+pclk      System  |  40.000      36.955  |  No paths    -      |  No paths    -      |  No paths    -    
+pclk      pclk    |  40.000      34.715  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: pclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                       Arrival           
+Instance                     Reference     Type        Pin     Net          Time        Slack 
+                             Clock                                                            
+----------------------------------------------------------------------------------------------
+uart_tx.count[0]             pclk          FD1P3DX     Q       count[0]     0.798       34.715
+uart_tx.count[1]             pclk          FD1P3DX     Q       count[1]     0.798       34.715
+uart_tx.count[2]             pclk          FD1P3DX     Q       count[2]     0.798       34.715
+uart_rx.counter.count[0]     pclk          FD1P3DX     Q       count[0]     0.798       34.781
+uart_rx.counter.count[1]     pclk          FD1P3DX     Q       count[1]     0.798       34.781
+uart_rx.counter.count[2]     pclk          FD1P3DX     Q       count[2]     0.798       34.781
+uart_tx.count[3]             pclk          FD1P3DX     Q       count[3]     0.798       35.239
+uart_tx.count[4]             pclk          FD1P3DX     Q       count[4]     0.798       35.239
+uart_tx.count[5]             pclk          FD1P3DX     Q       count[5]     0.798       35.239
+uart_tx.count[6]             pclk          FD1P3DX     Q       count[6]     0.798       35.239
+==============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                          Required           
+Instance                      Reference     Type        Pin     Net             Time         Slack 
+                              Clock                                                                
+---------------------------------------------------------------------------------------------------
+uart_tx.count[11]             pclk          FD1P3DX     D       count_s[11]     40.144       34.715
+uart_tx.count[9]              pclk          FD1P3DX     D       count_s[9]      40.144       34.775
+uart_tx.count[10]             pclk          FD1P3DX     D       count_s[10]     40.144       34.775
+uart_rx.counter.count[11]     pclk          FD1P3DX     D       count_s[11]     40.144       34.781
+uart_tx.count[7]              pclk          FD1P3DX     D       count_s[7]      40.144       34.834
+uart_tx.count[8]              pclk          FD1P3DX     D       count_s[8]      40.144       34.834
+uart_rx.counter.count[9]      pclk          FD1P3DX     D       count_s[9]      40.144       34.840
+uart_rx.counter.count[10]     pclk          FD1P3DX     D       count_s[10]     40.144       34.840
+uart_tx.count[5]              pclk          FD1P3DX     D       count_s[5]      40.144       34.892
+uart_tx.count[6]              pclk          FD1P3DX     D       count_s[6]      40.144       34.892
+===================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      40.000
+    - Setup time:                            -0.144
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         40.144
+
+    - Propagation time:                      5.428
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     34.715
+
+    Number of logic level(s):                12
+    Starting point:                          uart_tx.count[0] / Q
+    Ending point:                            uart_tx.count[11] / D
+    The start point is clocked by            pclk [rising] (rise=0.000 fall=20.000 period=40.000) on pin CK
+    The end   point is clocked by            pclk [rising] (rise=0.000 fall=20.000 period=40.000) on pin CK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                          Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+uart_tx.count[0]              FD1P3DX     Q        Out     0.798     0.798 r     -         
+count[0]                      Net         -        -       -         -           2         
+uart_tx.un1_countlto2         LUT4        A        In      0.000     0.798 r     -         
+uart_tx.un1_countlto2         LUT4        Z        Out     0.523     1.321 f     -         
+un1_countlt3                  Net         -        -       -         -           1         
+uart_tx.state_ns_1_0_.m5      LUT4        D        In      0.000     1.321 f     -         
+uart_tx.state_ns_1_0_.m5      LUT4        Z        Out     0.523     1.844 f     -         
+N_26_mux                      Net         -        -       -         -           1         
+uart_tx.state_ns_1_0_.m9      LUT4        C        In      0.000     1.844 f     -         
+uart_tx.state_ns_1_0_.m9      LUT4        Z        Out     0.568     2.412 f     -         
+N_29_mux                      Net         -        -       -         -           2         
+uart_tx.state_ns_1_0_.m11     LUT4        C        In      0.000     2.412 f     -         
+uart_tx.state_ns_1_0_.m11     LUT4        Z        Out     0.633     3.045 f     -         
+N_30_mux                      Net         -        -       -         -           4         
+uart_tx.count_1_sqmuxa        LUT4        A        In      0.000     3.045 f     -         
+uart_tx.count_1_sqmuxa        LUT4        Z        Out     0.698     3.743 f     -         
+count                         Net         -        -       -         -           13        
+uart_tx.count_cry_0[0]        CCU2        A1       In      0.000     3.743 f     -         
+uart_tx.count_cry_0[0]        CCU2        COUT     Out     0.784     4.527 r     -         
+count_cry[0]                  Net         -        -       -         -           1         
+uart_tx.count_cry_0[1]        CCU2        CIN      In      0.000     4.527 r     -         
+uart_tx.count_cry_0[1]        CCU2        COUT     Out     0.059     4.586 r     -         
+count_cry[2]                  Net         -        -       -         -           1         
+uart_tx.count_cry_0[3]        CCU2        CIN      In      0.000     4.586 r     -         
+uart_tx.count_cry_0[3]        CCU2        COUT     Out     0.059     4.645 r     -         
+count_cry[4]                  Net         -        -       -         -           1         
+uart_tx.count_cry_0[5]        CCU2        CIN      In      0.000     4.645 r     -         
+uart_tx.count_cry_0[5]        CCU2        COUT     Out     0.059     4.704 r     -         
+count_cry[6]                  Net         -        -       -         -           1         
+uart_tx.count_cry_0[7]        CCU2        CIN      In      0.000     4.704 r     -         
+uart_tx.count_cry_0[7]        CCU2        COUT     Out     0.059     4.763 r     -         
+count_cry[8]                  Net         -        -       -         -           1         
+uart_tx.count_cry_0[9]        CCU2        CIN      In      0.000     4.763 r     -         
+uart_tx.count_cry_0[9]        CCU2        COUT     Out     0.059     4.822 r     -         
+count_cry[10]                 Net         -        -       -         -           1         
+uart_tx.count_s_0[11]         CCU2        CIN      In      0.000     4.822 r     -         
+uart_tx.count_s_0[11]         CCU2        S0       Out     0.607     5.428 r     -         
+count_s[11]                   Net         -        -       -         -           1         
+uart_tx.count[11]             FD1P3DX     D        In      0.000     5.428 r     -         
+===========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                              Starting                                          Arrival           
+Instance                      Reference     Type        Pin     Net             Time        Slack 
+                              Clock                                                               
+--------------------------------------------------------------------------------------------------
+uart_tx.tx_2_u_RNO            System        WIDEFN9     Z       N_63            0.000       38.923
+uart_tx.tx_2_u_RNO_0          System        WIDEFN9     Z       N_64            0.000       38.923
+uart_tx.state_ns_1_0_.m20     System        WIDEFN9     Z       state_ns[0]     0.000       39.789
+==================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                          Required           
+Instance             Reference     Type        Pin     Net             Time         Slack 
+                     Clock                                                                
+------------------------------------------------------------------------------------------
+uart_tx.tx_out       System        FD1P3BX     D       tx_iv_i         39.789       38.923
+uart_tx.state[0]     System        FD1P3DX     D       state_ns[0]     39.789       39.789
+==========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      40.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         39.789
+
+    - Propagation time:                      0.866
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 38.923
+
+    Number of logic level(s):                2
+    Starting point:                          uart_tx.tx_2_u_RNO / Z
+    Ending point:                            uart_tx.tx_out / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            pclk [rising] (rise=0.000 fall=20.000 period=40.000) on pin CK
+
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                   Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+uart_tx.tx_2_u_RNO     WIDEFN9     Z        Out     0.000     0.000 r     -         
+N_63                   Net         -        -       -         -           1         
+uart_tx.tx_2_u         LUT4        A        In      0.000     0.000 r     -         
+uart_tx.tx_2_u         LUT4        Z        Out     0.523     0.523 r     -         
+tx_2                   Net         -        -       -         -           1         
+uart_tx.tx_out_RNO     LUT4        C        In      0.000     0.523 r     -         
+uart_tx.tx_out_RNO     LUT4        Z        Out     0.343     0.866 r     -         
+tx_iv_i                Net         -        -       -         -           1         
+uart_tx.tx_out         FD1P3BX     D        In      0.000     0.866 r     -         
+====================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:07s; Memory used current: 274MB peak: 275MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:07s; Memory used current: 274MB peak: 275MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfd2nx_40-9
+
+Register bits: 102 of 32256 (0%)
+PIC Latch:       0
+I/O cells:       25
+
+
+Details:
+CCU2:           23
+DPR16X4:        2
+FD1P3BX:        3
+FD1P3DX:        99
+GSR:            1
+IB:             16
+INV:            1
+LUT4:           148
+OB:             9
+VHI:            14
+VLO:            14
+WIDEFN9:        3
+
+Resource Usage inside macros:
+Registers: 0
+LUTs: 0
+EBRs: 0
+LRAMs: 0
+DSPs: 0
+Distributed RAMs: 0
+Carry Chains: 0
+Blackboxes: 0
+
+Mapping Summary:
+Total number of registers: 102 + 0 = 102 of 32256 (0.32%)
+Total number of LUTs: 148 + 0 = 148 
+Total number of EBRs: 0 + 0 = 0 of 84 (0.00%)
+Total number of LRAMs: 0 + 0 = 0 of 2 (0.00%)
+Total number of DSPs: 0 + 0 = 0 of 56 (0.00%)
+Total number of Distributed RAMs: 2 + 0 = 2 
+Total number of Carry Chains: 23 + 0 = 23 
+Total number of BlackBoxes: 29 + 0 = 29 
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:07s; Memory used current: 131MB peak: 275MB)
+
+Process took 0h:00m:19s realtime, 0h:00m:07s cputime
+# Sun Oct 25 00:15:58 2026
+
+###########################################################]

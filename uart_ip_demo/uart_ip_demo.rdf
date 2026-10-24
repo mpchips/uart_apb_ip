@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.2" radiant="2026.1.1.229.0" title="uart_ip_demo" device="LFD2NX-40-9BG256C" performance_grade="9_High-Performance_1.0V" family_int="jd5s00" device_int="jd5s30" package_int="CABGA256" operation_int="COM" speed_int="12" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="uart_apb_top" top="uart_apb_top"/>
+        <Source name="../src/apb_decoder.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/apb_interface.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/apb_rdata_mux.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/debouncer.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/fifo.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_controller.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_counter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_shifter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/synchronizer.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/uart_apb_top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="uart_apb_top"/>
+        </Source>
+        <Source name="../src/uart_rx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/uart_tx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../tb/fifo_tb.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="../tb/uart_burst_tb.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="../tb/uart_frame_err_tb.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="../src/sticky_flag.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../tb/uart_ovr_tb.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="../tb/uart_reg_tb.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="source/impl1/impl1.sdc" type="Pre-Synthesis Constraints File" type_short="SDC">
+            <Options module_filename="../src/uart_apb_top.v"/>
+        </Source>
+        <Source name="sim_fifo/sim_fifo.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="sim_ovr_flag/sim_ovr_flag.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="sim_reg_access/sim_reg_access.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="sim_top_burst/sim_top_burst.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="sim_top_frame_err/sim_top_frame_err.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="source/impl1/impl1.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="uart_ip_demo1.sty"/>
+</RadiantProject>

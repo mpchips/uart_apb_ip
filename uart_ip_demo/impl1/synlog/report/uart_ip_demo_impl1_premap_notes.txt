@@ -1,0 +1,7 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO225 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\rx_controller.v":22:4:22:9|There are no possible illegal states for state machine state[3:0] (in view: work.rx_controller(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\uart_tx.v":30:4:30:9|There are no possible illegal states for state machine state[3:0] (in view: work.uart_tx_25s_9600s_2604s_0_1_2_3(verilog)); safe FSM implementation is not required.
+@N: FX1184 |Applying syn_allowed_resources blockrams=84 on top level netlist uart_apb_top 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

@@ -1,0 +1,17 @@
+#List of actual used RTLs.
+
+File                                                                                                        Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_apb_top.v"                            verilog                      IN PROJECT
+"C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_tx.v"                                 verilog                      IN PROJECT
+"C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_rx.v"                                 verilog                      IN PROJECT
+"C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\rx_shifter.v"                              verilog                      IN PROJECT
+"C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\rx_counter.v"                              verilog                      IN PROJECT
+"C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\debouncer.v"                               verilog                      IN PROJECT
+"C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\rx_controller.v"                           verilog                      IN PROJECT
+"C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\sticky_flag.v"                             verilog                      IN PROJECT
+"C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\fifo.v"                                    verilog                      IN PROJECT
+"C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\synchronizer.v"                            verilog                      IN PROJECT
+"C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\apb_interface.v"                           verilog                      IN PROJECT
+"C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\apb_rdata_mux.v"                           verilog                      IN PROJECT
+"C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\apb_decoder.v"                             verilog                      IN PROJECT

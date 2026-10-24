@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="840" viewBox="0 0 1240 840" font-family="Consolas, 'Courier New', monospace">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <style>
+      .wire { stroke:#333; stroke-width:1.4; fill:none; }
+      .bus  { stroke:#333; stroke-width:3;   fill:none; }
+      .lbl  { font-size:11px; fill:#1a1a1a; }
+      .port { font-size:10px; fill:#6b6b6b; }
+      .title{ font-size:15px; font-weight:bold; fill:#1a1a1a; }
+      .tag  { font-size:10px; fill:#6b6b6b; }
+      .body { font-size:11px; fill:#333; }
+      .old  { fill:#E8F0FB; stroke:#2F5D9E; stroke-width:1.6; }
+      .dot  { fill:#333; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1240" height="840" fill="#ffffff"/>
+
+  <!-- Heading -->
+  <text x="20" y="34" font-size="18" font-weight="bold" fill="#1a1a1a">APB UART: uart_rx</text>
+
+  <!-- Module boundary -->
+  <rect x="120" y="70" width="1000" height="680" fill="none" stroke="#555" stroke-width="2"/>
+  <text x="134" y="94" class="title">uart_rx</text>
+  <text x="134" y="110" class="tag">#(CLKI_FREQ_MHZ = 25, BAUD_RATE = 9600)   BAUD_PERIOD = CLKI_FREQ_MHZ * 10^6 / BAUD_RATE</text>
+
+  <!-- Clock and reset -->
+  <path class="wire" d="M20,135 L160,135" marker-end="url(#arr)"/>
+  <text x="28" y="129" class="lbl">clk</text>
+  <text x="168" y="139" class="body">clk  (to every block)</text>
+  <path class="wire" d="M20,160 L160,160" marker-end="url(#arr)"/>
+  <text x="28" y="154" class="lbl">nrst</text>
+  <text x="168" y="164" class="body">nrst (to every block)</text>
+
+  <!-- debouncer -->
+  <rect x="220" y="190" width="180" height="160" rx="4" class="old"/>
+  <text x="310" y="214" class="title" text-anchor="middle">debouncer</text>
+  <text x="310" y="228" class="tag" text-anchor="middle">module: debouncer</text>
+  <text x="226" y="274" class="port">sig</text>
+  <text x="394" y="254" class="port" text-anchor="end">detected</text>
+  <text x="394" y="314" class="port" text-anchor="end">en</text>
+  <text x="310" y="330" class="tag" text-anchor="middle">DELAY = BAUD_PERIOD/2</text>
+
+  <!-- counter (rx_counter) -->
+  <rect x="220" y="390" width="180" height="110" rx="4" class="old"/>
+  <text x="310" y="414" class="title" text-anchor="middle">counter</text>
+  <text x="310" y="428" class="tag" text-anchor="middle">module: rx_counter</text>
+  <text x="394" y="444" class="port" text-anchor="end">en</text>
+  <text x="394" y="474" class="port" text-anchor="end">en_sample</text>
+  <text x="290" y="490" class="tag" text-anchor="middle">BAUD_PERIOD</text>
+
+  <!-- controller (rx_controller) -->
+  <rect x="560" y="200" width="220" height="300" rx="4" class="old"/>
+  <text x="670" y="224" class="title" text-anchor="middle">controller</text>
+  <text x="670" y="238" class="tag" text-anchor="middle">module: rx_controller</text>
+  <text x="566" y="254" class="port">st</text>
+  <text x="566" y="314" class="port">en_deb</text>
+  <text x="566" y="444" class="port">en_ctr</text>
+  <text x="566" y="474" class="port">en_sample</text>
+  <text x="774" y="284" class="port" text-anchor="end">rx_done</text>
+  <text x="774" y="364" class="port" text-anchor="end">rx_err</text>
+  <text x="700" y="494" class="port" text-anchor="middle">curr_bit</text>
+  <text x="670" y="384" class="tag" text-anchor="middle">FSM: IDLE, CAPTURE,</text>
+  <text x="670" y="398" class="tag" text-anchor="middle">DONE, ERR</text>
+  <text x="670" y="414" class="tag" text-anchor="middle">stop bit checked</text>
+  <text x="670" y="426" class="tag" text-anchor="middle">at bit_idx = 9</text>
+
+  <!-- rx_shifter -->
+  <rect x="560" y="540" width="220" height="160" rx="4" class="old"/>
+  <text x="670" y="580" class="title" text-anchor="middle">rx_shifter</text>
+  <text x="670" y="594" class="tag" text-anchor="middle">module: rx_shifter</text>
+  <text x="700" y="556" class="port" text-anchor="middle">curr_bit</text>
+  <text x="566" y="624" class="port">en_sample</text>
+  <text x="566" y="664" class="port">ser_in</text>
+  <text x="774" y="644" class="port" text-anchor="end">data[7:0]</text>
+  <text x="670" y="690" class="tag" text-anchor="middle">9-bit shift register</text>
+
+  <!-- rx input: to debouncer sig and rx_shifter ser_in -->
+  <path class="wire" d="M20,270 L220,270" marker-end="url(#arr)"/>
+  <text x="28" y="264" class="lbl">rx</text>
+  <path class="wire" d="M160,270 L160,660 L560,660" marker-end="url(#arr)"/>
+  <circle cx="160" cy="270" r="3" class="dot"/>
+
+  <!-- debouncer <-> controller -->
+  <path class="wire" d="M400,250 L560,250" marker-end="url(#arr)"/>
+  <text x="480" y="244" class="lbl" text-anchor="middle">st_rx *</text>
+  <path class="wire" d="M560,310 L400,310" marker-end="url(#arr)"/>
+  <text x="480" y="304" class="lbl" text-anchor="middle">en_deb</text>
+
+  <!-- counter <-> controller -->
+  <path class="wire" d="M560,440 L400,440" marker-end="url(#arr)"/>
+  <text x="480" y="434" class="lbl" text-anchor="middle">en_ctr</text>
+  <path class="wire" d="M400,470 L560,470" marker-end="url(#arr)"/>
+  <text x="440" y="464" class="lbl" text-anchor="middle">en_sample *</text>
+
+  <!-- en_sample branch to rx_shifter -->
+  <path class="wire" d="M500,470 L500,620 L560,620" marker-end="url(#arr)"/>
+  <circle cx="500" cy="470" r="3" class="dot"/>
+
+  <!-- curr_bit: rx_shifter -> controller -->
+  <path class="wire" d="M700,540 L700,500" marker-end="url(#arr)"/>
+  <text x="708" y="524" class="lbl">curr_bit</text>
+
+  <!-- Outputs -->
+  <path class="wire" d="M780,280 L1220,280" marker-end="url(#arr)"/>
+  <text x="1130" y="274" class="lbl">rx_done *</text>
+  <path class="wire" d="M780,360 L1220,360" marker-end="url(#arr)"/>
+  <text x="1130" y="354" class="lbl">rx_err *</text>
+  <path class="bus" d="M780,640 L1220,640" marker-end="url(#arr)"/>
+  <text x="1130" y="634" class="lbl">data_o[7:0]</text>
+
+  <!-- Legend -->
+  <path class="bus" d="M120,782 L170,782"/>
+  <text x="178" y="786" class="body">multi-bit bus</text>
+  <circle cx="310" cy="782" r="3" class="dot"/>
+  <text x="320" y="786" class="body">branch (same net)</text>
+  <text x="470" y="786" class="body">* = one-cycle pulse</text>
+  <text x="120" y="818" class="body">rx must already be synchronised to clk (rx_sync in uart_apb_top). data_o is valid while rx_done is high.</text>
+</svg>

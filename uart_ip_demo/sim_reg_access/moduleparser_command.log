@@ -1,0 +1,1 @@
+C:/lscc/radiant/2026.1.1/bin/nt64/moduleparser.exe -PROJ sim_reg_access -pf C:/lscc/radiant/2026.1.1/cae_library/synthesis/verilog/lfd2nx.v -lib lfd2nx -top uart_apb_top -sort -lst C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_reg_access/source_files.lst

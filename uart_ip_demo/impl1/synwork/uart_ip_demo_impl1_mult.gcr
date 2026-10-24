@@ -1,0 +1,8 @@
+i pclk
+m 0 0
+u 23 87
+p {p:pclk}{t:uart_tx.clk}{p:uart_tx.clk}{t:uart_tx.state[1].C}
+e ckid0_0 {t:uart_tx.state[1].C} dffr
+c ckid0_0 {p:pclk} port Unsupported/too complex instance on clock path
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synthesis">
+        <Message>
+            <ID>35831038</ID>
+            <Severity>1</Severity>
+            <Dynamic>uart_apb_top</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\standard.vhd(9): </Dynamic>
+            <Dynamic>standard</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\standard.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\std_1164.vhd(15): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\std_1164.vhd</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\std_1164.vhd(178): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\std_1164.vhd</Navigation>
+            <Navigation>178</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\mgc_qsim.vhd(18): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\mgc_qsim.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\mgc_qsim.vhd(753): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\mgc_qsim.vhd</Navigation>
+            <Navigation>753</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\numeric_bit.vhd(54): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\numeric_bit.vhd</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\numeric_bit.vhd(834): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\numeric_bit.vhd</Navigation>
+            <Navigation>834</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\numeric_std.vhd(57): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\numeric_std.vhd</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\numeric_std.vhd(874): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\numeric_std.vhd</Navigation>
+            <Navigation>874</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\textio.vhd(13): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\textio.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\textio.vhd(114): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\textio.vhd</Navigation>
+            <Navigation>114</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\std_logic_textio.vhd(26): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\std_logic_textio.vhd</Navigation>
+            <Navigation>26</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\std_logic_textio.vhd(72): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\std_logic_textio.vhd</Navigation>
+            <Navigation>72</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_misc.vhd(30): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_misc.vhd</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_misc.vhd(182): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_misc.vhd</Navigation>
+            <Navigation>182</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\math_real.vhd(56): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\math_real.vhd</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\math_real.vhd(685): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\math_real.vhd</Navigation>
+            <Navigation>685</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\mixed_lang_vltype.vhd(9): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\mixed_lang_vltype.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\mixed_lang_vltype.vhd(88): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\mixed_lang_vltype.vhd</Navigation>
+            <Navigation>88</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_arit.vhd(25): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_arit.vhd</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_arit.vhd(206): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_arit.vhd</Navigation>
+            <Navigation>206</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_attr.vhd(39): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_attr.vhd</Navigation>
+            <Navigation>39</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_sign.vhd(35): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_sign.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_sign.vhd(96): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_sign.vhd</Navigation>
+            <Navigation>96</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_unsi.vhd(35): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_unsi.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_unsi.vhd(94): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\syn_unsi.vhd</Navigation>
+            <Navigation>94</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\synattr.vhd(50): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ispfpga\vhdl_packages\synattr.vhd</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(1): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_addsub.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_addsub.v(40): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/adder_subtractor/rtl/lscc_add_sub.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_addsub.v</Navigation>
+            <Navigation>40</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(2): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_add.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>2</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_add.v(50): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/adder/rtl/lscc_adder.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_add.v</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(3): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_complex_mult.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_complex_mult.v(52): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/complex_mult/rtl/lscc_complex_mult.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_complex_mult.v</Navigation>
+            <Navigation>52</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(4): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_counter.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_counter.v(39): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/counter/rtl/lscc_cntr.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_counter.v</Navigation>
+            <Navigation>39</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(5): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_distributed_dpram.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_distributed_dpram.v(43): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/distributed_dpram/rtl/lscc_distributed_dpram.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_distributed_dpram.v</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(6): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_distributed_spram.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_distributed_spram.v(42): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/distributed_spram/rtl/lscc_distributed_spram.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_distributed_spram.v</Navigation>
+            <Navigation>42</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(7): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_distributed_rom.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_distributed_rom.v(42): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/distributed_rom/rtl/lscc_distributed_rom.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_distributed_rom.v</Navigation>
+            <Navigation>42</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(8): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_distributed_shift_reg.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_distributed_shift_reg.v(41): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/ram_shift_reg/rtl/lscc_shift_register.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_distributed_shift_reg.v</Navigation>
+            <Navigation>41</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(9): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_fifo.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_fifo.v(44): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/fifo/rtl/lscc_fifo.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_fifo.v</Navigation>
+            <Navigation>44</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(10): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_fifo_dc.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_fifo_dc.v(47): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_fifo_dc.v</Navigation>
+            <Navigation>47</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_fifo_dc.v(48): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_fifo_dc.v</Navigation>
+            <Navigation>48</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(128): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_distributed_ram.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>128</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(129): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_ecc.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>129</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(130): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>130</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(131): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_gray_reg.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>131</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(132): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_gray_synchronizer.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>132</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(133): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_prim.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>133</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(134): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>134</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(135): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_rd_output_logic.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>135</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(136): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_ring_counter.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>136</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(137): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_wr_ctrl_logic.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>137</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(138): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>138</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(139): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_prim_gen.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>139</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(140): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>140</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(141): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v</Navigation>
+            <Navigation>141</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(11): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_mac.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_mac.v(52): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/mult_accumulate/rtl/lscc_mult_accumulate.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_mac.v</Navigation>
+            <Navigation>52</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(12): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_multaddsubsum.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_multaddsubsum.v(53): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_multaddsubsum.v</Navigation>
+            <Navigation>53</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(13): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_multaddsub.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_multaddsub.v(52): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/mult_add_sub/rtl/lscc_mult_add_sub.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_multaddsub.v</Navigation>
+            <Navigation>52</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(14): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_mult.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_mult.v(51): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/multiplier/rtl/lscc_multiplier.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_mult.v</Navigation>
+            <Navigation>51</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(15): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp.v(48): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp.v</Navigation>
+            <Navigation>48</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp.v(49): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp.v</Navigation>
+            <Navigation>49</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v(438): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v</Navigation>
+            <Navigation>438</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(64): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_behavioral.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v</Navigation>
+            <Navigation>64</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(66): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_lut_decode.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v</Navigation>
+            <Navigation>66</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(478): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v</Navigation>
+            <Navigation>478</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(609): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v</Navigation>
+            <Navigation>609</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(1511): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v</Navigation>
+            <Navigation>1511</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(2456): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v</Navigation>
+            <Navigation>2456</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(4673): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v</Navigation>
+            <Navigation>4673</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(16): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp_be.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>16</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp_be.v(49): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp_be.v</Navigation>
+            <Navigation>49</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp_be.v(50): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp_be.v</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v(438): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v</Navigation>
+            <Navigation>438</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(17): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp_true.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp_true.v(49): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/ram_dp_true/rtl/lscc_ram_dp_true.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp_true.v</Navigation>
+            <Navigation>49</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp_true.v(50): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dp_true.v</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v(517): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v</Navigation>
+            <Navigation>517</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v(58): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_behavioral.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v</Navigation>
+            <Navigation>58</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v(61): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_lut_decode.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v</Navigation>
+            <Navigation>61</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v(257): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_functions.vh</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v</Navigation>
+            <Navigation>257</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v(620): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_functions.vh</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v</Navigation>
+            <Navigation>620</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v(748): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_functions.vh</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v</Navigation>
+            <Navigation>748</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v(1336): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_functions.vh</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v</Navigation>
+            <Navigation>1336</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v(2535): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_functions.vh</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_impl.v</Navigation>
+            <Navigation>2535</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v(518): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true_ecc_decoder.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v</Navigation>
+            <Navigation>518</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(18): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dq.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dq.v(45): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dq.v</Navigation>
+            <Navigation>45</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dq.v(46): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dq.v</Navigation>
+            <Navigation>46</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2839): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/hsiao_ecc_encoder.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v</Navigation>
+            <Navigation>2839</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2840): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/hsiao_ecc_decoder.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v</Navigation>
+            <Navigation>2840</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2841): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq_lut_decode.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v</Navigation>
+            <Navigation>2841</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(19): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dq_be.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>19</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dq_be.v(45): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dq_be.v</Navigation>
+            <Navigation>45</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dq_be.v(46): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_ram_dq_be.v</Navigation>
+            <Navigation>46</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2839): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/hsiao_ecc_encoder.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v</Navigation>
+            <Navigation>2839</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2840): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/hsiao_ecc_decoder.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v</Navigation>
+            <Navigation>2840</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2841): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq_lut_decode.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v</Navigation>
+            <Navigation>2841</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(20): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_rom.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_rom.v(45): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/rom/rtl/lscc_rom.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_rom.v</Navigation>
+            <Navigation>45</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v(21): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_sub.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v</Navigation>
+            <Navigation>21</Navigation>
+        </Message>
+        <Message>
+            <ID>35901328</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_sub.v(50): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/../common/subtractor/rtl/lscc_subtractor.v</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_sub.v</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/uart_apb_top.v(1): </Dynamic>
+            <Dynamic>uart_apb_top</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/uart_apb_top.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/apb_interface.v(1): </Dynamic>
+            <Dynamic>apb_interface</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/apb_interface.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/apb_decoder.v(1): </Dynamic>
+            <Dynamic>apb_decoder</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/apb_decoder.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/apb_rdata_mux.v(1): </Dynamic>
+            <Dynamic>apb_rdata_mux</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/apb_rdata_mux.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/synchronizer.v(1): </Dynamic>
+            <Dynamic>synchronizer</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/synchronizer.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v(1): </Dynamic>
+            <Dynamic>fifo</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v(35): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v(37): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v</Navigation>
+            <Navigation>37</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v(39): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v</Navigation>
+            <Navigation>39</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v(56): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v(71): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v</Navigation>
+            <Navigation>71</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/sticky_flag.v(1): </Dynamic>
+            <Dynamic>sticky_flag</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/sticky_flag.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/uart_rx.v(1): </Dynamic>
+            <Dynamic>uart_rx</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/uart_rx.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_controller.v(1): </Dynamic>
+            <Dynamic>rx_controller</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_controller.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/debouncer.v(1): </Dynamic>
+            <Dynamic>debouncer</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/debouncer.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_counter.v(1): </Dynamic>
+            <Dynamic>rx_counter</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_counter.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_shifter.v(1): </Dynamic>
+            <Dynamic>rx_shifter</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_shifter.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/uart_tx.v(1): </Dynamic>
+            <Dynamic>uart_tx</Dynamic>
+            <Navigation>C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/uart_tx.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>16</Severity>
+            <Dynamic>CG1340 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_tx.v&quot;:25:15:25:21|Index into variable data_reg could be out of range ; a simulation mismatch is possible.</Dynamic>
+            <Navigation>CG1340</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_tx.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Index into variable data_reg could be out of range ; a simulation mismatch is possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_tx.v&quot;:105:4:105:9|Optimizing register bit count[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_tx.v</Navigation>
+            <Navigation>105</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>105</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit count[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_tx.v&quot;:105:4:105:9|Optimizing register bit count[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_tx.v</Navigation>
+            <Navigation>105</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>105</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit count[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_tx.v&quot;:105:4:105:9|Optimizing register bit count[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_tx.v</Navigation>
+            <Navigation>105</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>105</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit count[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_tx.v&quot;:105:4:105:9|Optimizing register bit count[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_tx.v</Navigation>
+            <Navigation>105</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>105</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit count[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012918</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_tx.v&quot;:105:4:105:9|Pruning register bits 15 to 12 of count[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\uart_tx.v</Navigation>
+            <Navigation>105</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>105</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bits 15 to 12 of count[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\rx_counter.v&quot;:14:4:14:9|Optimizing register bit count[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\rx_counter.v</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit count[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\rx_counter.v&quot;:14:4:14:9|Optimizing register bit count[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\rx_counter.v</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit count[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\rx_counter.v&quot;:14:4:14:9|Optimizing register bit count[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\rx_counter.v</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit count[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\rx_counter.v&quot;:14:4:14:9|Optimizing register bit count[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\rx_counter.v</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit count[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012918</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\rx_counter.v&quot;:14:4:14:9|Pruning register bits 15 to 12 of count[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\rx_counter.v</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bits 15 to 12 of count[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\debouncer.v&quot;:60:4:60:9|Optimizing register bit count[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\debouncer.v</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit count[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\debouncer.v&quot;:60:4:60:9|Optimizing register bit count[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\debouncer.v</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit count[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\debouncer.v&quot;:60:4:60:9|Optimizing register bit count[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\debouncer.v</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit count[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\debouncer.v&quot;:60:4:60:9|Optimizing register bit count[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\debouncer.v</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit count[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\debouncer.v&quot;:60:4:60:9|Optimizing register bit count[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\debouncer.v</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit count[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012918</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\debouncer.v&quot;:60:4:60:9|Pruning register bits 15 to 11 of count[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\debouncer.v</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bits 15 to 11 of count[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012909</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL246 :&quot;C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\apb_interface.v&quot;:7:17:7:21|Input port bits 1 to 0 of paddr[3:0] are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\Users\mpiatos\Documents\Personal\design_projects\uart\src\apb_interface.v</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Input port bits 1 to 0 of paddr[3:0] are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>16</Severity>
+            <Dynamic>FX310 |Ignoring option &quot;-dcc_insertion&quot; since the technology does not support DCC.</Dynamic>
+            <Navigation>FX310</Navigation>
+            <Navigation>Ignoring option &quot;-dcc_insertion&quot; since the technology does not support DCC. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>16</Severity>
+            <Dynamic>BW295 :&quot;c:/users/mpiatos/documents/personal/design_projects/uart/uart_ip_demo/impl1/uart_ip_demo_impl1_cpe.ldc&quot;:3:0:3:0|Forward annotation of clocks to input pins not allowed for this technology. Forward annotating clock pclk on driving pins</Dynamic>
+            <Navigation>BW295</Navigation>
+            <Navigation>c:/users/mpiatos/documents/personal/design_projects/uart/uart_ip_demo/impl1/uart_ip_demo_impl1_cpe.ldc</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Forward annotation of clocks to input pins not allowed for this technology. Forward annotating clock pclk on driving pins</Navigation>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>rx_sync/sync_ffs_reg[0].intGnd</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>rx_sync/sync_ffs[1].intGnd</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>rx_fifo/wr_ptr_reg[0].intGnd</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>rx_fifo/wr_ptr_reg[1].intGnd</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>rx_fifo/wr_ptr_reg[2].intGnd</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>rx_fifo/wr_ptr_reg[3].intGnd</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>rx_fifo/rd_ptr_reg[0].intGnd</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>rx_fifo/rd_ptr_reg[1].intGnd</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>rx_fifo/rd_ptr_reg[2].intGnd</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>rx_fifo/rd_ptr_reg[3].intGnd</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811149</ID>
+            <Severity>1</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>paddr[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>paddr[0]</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>paddr[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>paddr[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>paddr[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>paddr[0]</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

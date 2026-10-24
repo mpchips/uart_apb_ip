@@ -1,0 +1,14 @@
+1 11 apb_decoder 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 0 0 101 0
+1 13 apb_rdata_mux 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 0 0 42 0
+1 13 apb_interface 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 131072 0 59 0
+1 12 synchronizer 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 0 0 33 0
+1 4 fifo 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 0 0 196 0
+1 11 sticky_flag 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 0 0 30 0
+1 13 rx_controller 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 0 0 111 0
+1 9 debouncer 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 0 0 127 0
+1 10 rx_counter 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 0 0 45 0
+1 10 rx_shifter 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 0 0 40 0
+1 7 uart_rx 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 0 0 56 0
+1 7 uart_tx 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 131072 0 194 0
+1 12 uart_apb_top 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 0 0 109 0
+1 11 uart_ovr_tb 4 fast 96 C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/qrun.out/work 0 0 180224 0 819 0

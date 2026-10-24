@@ -1,0 +1,28 @@
+#Start recording tcl command: 10/24/2026 18:51:41
+#Project Location: C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo; Project name: uart_ip_demo
+prj_open "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/uart_ip_demo.rdf"
+prj_add_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/source/impl1/impl1.sdc"
+prj_run Synthesis -impl impl1
+prj_run PAR -impl impl1
+prj_add_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/tb/fifo_tb.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/tb/uart_burst_tb.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/tb/uart_frame_err_tb.v" -simulate_only
+prj_add_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_fifo/sim_fifo.spf"
+prj_add_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_top_burst/sim_top_burst.spf"
+prj_add_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_ovr.v"
+prj_remove_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_ovr.v"
+prj_add_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_ovr.v"
+prj_run PAR -impl impl1
+prj_run PAR -impl impl1
+prj_run PAR -impl impl1
+prj_remove_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_ovr.v"
+prj_add_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/sticky_flag.v"
+prj_remove_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/source/impl1/impl1.sdc"
+prj_add_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/source/impl1/impl1.sdc"
+prj_enable_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/source/impl1/impl1.sdc"
+prj_run PAR -impl impl1
+prj_run Export -impl impl1
+prj_add_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_top_frame_err/sim_top_frame_err.spf"
+prj_add_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/tb/uart_ovr_tb.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/tb/uart_reg_tb.v" -simulate_only
+prj_add_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_ovr_flag/sim_ovr_flag.spf"
+prj_add_source "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_reg_access/sim_reg_access.spf"
+prj_save 
+#Stop recording: 10/25/2026 01:25:14

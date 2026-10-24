@@ -1,0 +1,166 @@
+Lattice Synthesis Engine launched.
+
+Synthesis options:
+The -a option is LFD2NX.
+The -t option is CABGA256.
+The -sp option is 9_High-Performance_1.0V.
+The -p option is LFD2NX-40.
+
+###################### Device Information ######################
+----------------------------------------------------------------
+Lattice Family        | LFD2NX
+----------------------------------------------------------------
+Device                | LFD2NX-40
+----------------------------------------------------------------
+Package               | CABGA256
+----------------------------------------------------------------
+Performance Grade     | 9_High-Performance_1.0V
+----------------------------------------------------------------
+################################################################
+
+####################### Device Resources #######################
+----------------------------------------------------------------
+Logic Cells           | 32256
+----------------------------------------------------------------
+RAM Blocks            | 84
+----------------------------------------------------------------
+DSP Blocks            | 462
+----------------------------------------------------------------
+PLLs                  | 3
+----------------------------------------------------------------
+I/O Pins              | 185
+----------------------------------------------------------------
+################################################################
+
+Resolving user-selected strategy settings...
+
+
+###################### Strategy Settings #######################
+----------------------------------------------------------------
+Optimization Goal     | Timing
+----------------------------------------------------------------
+Top-level Module Name | uart_apb_top
+----------------------------------------------------------------
+Target Frequency      | 200.000 MHz
+----------------------------------------------------------------
+Maximum Fanout        | 1000
+----------------------------------------------------------------
+Timing Path Count     | 3
+----------------------------------------------------------------
+RAM Read/Write Check  | False
+----------------------------------------------------------------
+BRAM Utilization      | 100.0%
+----------------------------------------------------------------
+DSP Usage             | True
+----------------------------------------------------------------
+DSP Utilization       | 100.0%
+----------------------------------------------------------------
+FSM Encoding Style    | Auto
+----------------------------------------------------------------
+Resolve Mixed Drivers | False
+----------------------------------------------------------------
+Fix Gated Clocks      | True
+----------------------------------------------------------------
+Mux Style             | Auto
+----------------------------------------------------------------
+Use Carry Chain       | True
+----------------------------------------------------------------
+Carry Chain Length    | Infinite
+----------------------------------------------------------------
+Loop Limit            | 1950
+----------------------------------------------------------------
+Use I/O Insertion     | True
+----------------------------------------------------------------
+Use I/O Registers     | False
+----------------------------------------------------------------
+Resource Sharing      | True
+----------------------------------------------------------------
+Propagate Constants   | True
+----------------------------------------------------------------
+Remove Duplicate Reg  | True
+----------------------------------------------------------------
+Force GSR             | False
+----------------------------------------------------------------
+ROM Style             | Auto
+----------------------------------------------------------------
+RAM Style             | Auto
+----------------------------------------------------------------
+Remove LOC Properties | False
+----------------------------------------------------------------
+Partition Flow        | False
+----------------------------------------------------------------
+Use DCC Insertion     | None
+----------------------------------------------------------------
+################################################################
+
+
+The -comp option is TRUE.
+The -syn option is FALSE.
+Hardtimer checking is enabled (default). The -dt option is not used.
+
+Output HDL filename: uart_ip_demo_impl1.vm
+-path . (searchpath added)
+-path .. (searchpath added)
+-path ../../src (searchpath added)
+-path ../../tb (searchpath added)
+-path C:/lscc/radiant/2026.1.1/ispfpga/jd5s00/data (searchpath added)
+Mixed language design
+Verilog design file: C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v
+Verilog design file: ../../src/apb_decoder.v
+Verilog design file: ../../src/apb_interface.v
+Verilog design file: ../../src/apb_rdata_mux.v
+Verilog design file: ../../src/debouncer.v
+Verilog design file: ../../src/fifo.v
+Verilog design file: ../../src/rx_controller.v
+Verilog design file: ../../src/rx_counter.v
+Verilog design file: ../../src/rx_shifter.v
+Verilog design file: ../../src/synchronizer.v
+Verilog design file: ../../src/uart_apb_top.v
+Verilog design file: ../../src/uart_rx.v
+Verilog design file: ../../src/uart_tx.v
+Verilog design file: ../../src/sticky_flag.v
+VHDL library: pmi
+VHDL design file: C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.vhd
+
+Compiling design...
+
+Analyzing Verilog file C:/lscc/radiant/2026.1.1/ispfpga\..\cae_library\synthesis\verilog\generic.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1.1/ispfpga\..\cae_library\synthesis\verilog\lfd2nx.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1.1/ispfpga\..\cae_library\synthesis\verilog\lfd2nx.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1.1/ispfpga\..\cae_library\simulation\verilog\lfd2nx\lfd2nx_sp.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1.1/ispfpga\..\cae_library\simulation\verilog\uaplatform\uaplatform_sp.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v. VERI-1482
+Analyzing Verilog file ../../src/apb_decoder.v. VERI-1482
+Analyzing Verilog file ../../src/apb_interface.v. VERI-1482
+Analyzing Verilog file ../../src/apb_rdata_mux.v. VERI-1482
+Analyzing Verilog file ../../src/debouncer.v. VERI-1482
+Analyzing Verilog file ../../src/fifo.v. VERI-1482
+Analyzing Verilog file ../../src/rx_controller.v. VERI-1482
+Analyzing Verilog file ../../src/rx_counter.v. VERI-1482
+Analyzing Verilog file ../../src/rx_shifter.v. VERI-1482
+Analyzing Verilog file ../../src/synchronizer.v. VERI-1482
+Analyzing Verilog file ../../src/uart_apb_top.v. VERI-1482
+Analyzing Verilog file ../../src/uart_rx.v. VERI-1482
+Analyzing Verilog file ../../src/uart_tx.v. VERI-1482
+Analyzing Verilog file ../../src/sticky_flag.v. VERI-1482
+Top module name (Verilog): uart_apb_top
+INFO <35901018> - synthesis: ../../src/uart_apb_top.v(1): compiling module uart_apb_top. VERI-1018
+INFO <35901018> - synthesis: ../../src/apb_interface.v(1): compiling module apb_interface. VERI-1018
+INFO <35901018> - synthesis: ../../src/apb_decoder.v(1): compiling module apb_decoder. VERI-1018
+INFO <35901018> - synthesis: ../../src/apb_rdata_mux.v(1): compiling module apb_rdata_mux. VERI-1018
+INFO <35901018> - synthesis: ../../src/synchronizer.v(1): compiling module synchronizer. VERI-1018
+INFO <35901018> - synthesis: ../../src/fifo.v(1): compiling module fifo. VERI-1018
+WARNING <35901209> - synthesis: ../../src/fifo.v(35): expression size 32 truncated to fit in target size 5. VERI-1209
+WARNING <35901209> - synthesis: ../../src/fifo.v(37): expression size 32 truncated to fit in target size 5. VERI-1209
+WARNING <35901209> - synthesis: ../../src/fifo.v(39): expression size 32 truncated to fit in target size 5. VERI-1209
+WARNING <35901209> - synthesis: ../../src/fifo.v(56): expression size 32 truncated to fit in target size 4. VERI-1209
+WARNING <35901209> - synthesis: ../../src/fifo.v(71): expression size 32 truncated to fit in target size 4. VERI-1209
+INFO <35901018> - synthesis: ../../src/sticky_flag.v(1): compiling module sticky_flag. VERI-1018
+INFO <35901018> - synthesis: ../../src/uart_rx.v(1): compiling module uart_rx. VERI-1018
+INFO <35901018> - synthesis: ../../src/rx_controller.v(1): compiling module rx_controller. VERI-1018
+INFO <35901018> - synthesis: ../../src/debouncer.v(1): compiling module debouncer. VERI-1018
+INFO <35901018> - synthesis: ../../src/rx_counter.v(1): compiling module rx_counter. VERI-1018
+INFO <35901018> - synthesis: ../../src/rx_shifter.v(1): compiling module rx_shifter. VERI-1018
+INFO <35901018> - synthesis: ../../src/uart_tx.v(1): compiling module uart_tx. VERI-1018
+LSE: Compile Design done
+

@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="850" viewBox="0 0 1240 850" font-family="Consolas, 'Courier New', monospace">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <style>
+      .wire { stroke:#333; stroke-width:1.4; fill:none; }
+      .bus  { stroke:#333; stroke-width:3;   fill:none; }
+      .lbl  { font-size:11px; fill:#1a1a1a; }
+      .port { font-size:10px; fill:#6b6b6b; }
+      .title{ font-size:15px; font-weight:bold; fill:#1a1a1a; }
+      .tag  { font-size:10px; fill:#6b6b6b; }
+      .body { font-size:11px; fill:#333; }
+      .old  { fill:#E8F0FB; stroke:#2F5D9E; stroke-width:1.6; }
+      .dot  { fill:#333; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1240" height="850" fill="#ffffff"/>
+
+  <!-- Heading -->
+  <text x="20" y="34" font-size="18" font-weight="bold" fill="#1a1a1a">APB UART: apb_interface</text>
+
+  <!-- Module boundary -->
+  <rect x="180" y="70" width="880" height="680" fill="none" stroke="#555" stroke-width="2"/>
+  <text x="194" y="94" class="title">apb_interface</text>
+  <text x="194" y="110" class="tag">combinational only: no clock, no reset, no state</text>
+
+  <!-- decoder (apb_decoder) -->
+  <rect x="520" y="130" width="200" height="270" rx="4" class="old"/>
+  <text x="620" y="154" class="title" text-anchor="middle">decoder</text>
+  <text x="620" y="168" class="tag" text-anchor="middle">module: apb_decoder</text>
+  <text x="526" y="184" class="port">psel</text>
+  <text x="526" y="204" class="port">penable</text>
+  <text x="526" y="234" class="port">pwrite</text>
+  <text x="526" y="264" class="port">paddr[3:2]</text>
+  <text x="526" y="294" class="port">rxf_empty</text>
+  <text x="526" y="324" class="port">tx_ready</text>
+  <text x="526" y="354" class="port">pwdata_3</text>
+  <text x="526" y="384" class="port">pwdata_4</text>
+  <text x="714" y="214" class="port" text-anchor="end">tx_start</text>
+  <text x="714" y="274" class="port" text-anchor="end">rxf_pop</text>
+  <text x="714" y="334" class="port" text-anchor="end">clr_ovr</text>
+  <text x="714" y="364" class="port" text-anchor="end">clr_err</text>
+  <text x="640" y="236" class="tag" text-anchor="middle">strobes only in</text>
+  <text x="640" y="248" class="tag" text-anchor="middle">the access phase</text>
+
+  <!-- rdata mux (apb_rdata_mux) -->
+  <rect x="520" y="430" width="200" height="250" rx="4" class="old"/>
+  <text x="620" y="454" class="title" text-anchor="middle">rdata_mux</text>
+  <text x="620" y="468" class="tag" text-anchor="middle">module: apb_rdata_mux</text>
+  <text x="526" y="484" class="port">paddr[3:2]</text>
+  <text x="526" y="514" class="port">rxf_empty</text>
+  <text x="526" y="544" class="port">tx_ready</text>
+  <text x="526" y="574" class="port">rxf_full</text>
+  <text x="526" y="604" class="port">rxf_data[7:0]</text>
+  <text x="526" y="634" class="port">rx_ovr</text>
+  <text x="526" y="664" class="port">rx_err</text>
+  <text x="714" y="544" class="port" text-anchor="end">prdata[7:0]</text>
+
+  <!-- Inputs used by the decoder only -->
+  <path class="wire" d="M20,180 L520,180" marker-end="url(#arr)"/>
+  <text x="28" y="174" class="lbl">psel</text>
+  <path class="wire" d="M20,200 L520,200" marker-end="url(#arr)"/>
+  <text x="28" y="196" class="lbl">penable</text>
+  <path class="wire" d="M20,230 L520,230" marker-end="url(#arr)"/>
+  <text x="28" y="224" class="lbl">pwrite</text>
+
+  <!-- paddr: to both blocks, bits [3:2] only -->
+  <path class="bus" d="M20,260 L520,260" marker-end="url(#arr)"/>
+  <text x="28" y="254" class="lbl">paddr[3:0]</text>
+  <text x="440" y="254" class="tag" text-anchor="middle">[3:2]</text>
+  <path class="bus" d="M300,260 L300,480 L520,480" marker-end="url(#arr)"/>
+  <circle cx="300" cy="260" r="4" class="dot"/>
+  <text x="440" y="474" class="tag" text-anchor="middle">[3:2]</text>
+
+  <!-- rxf_empty: to both blocks -->
+  <path class="wire" d="M20,290 L520,290" marker-end="url(#arr)"/>
+  <text x="28" y="284" class="lbl">rxf_empty</text>
+  <path class="wire" d="M340,290 L340,510 L520,510" marker-end="url(#arr)"/>
+  <circle cx="340" cy="290" r="3" class="dot"/>
+
+  <!-- tx_ready: to both blocks -->
+  <path class="wire" d="M20,320 L520,320" marker-end="url(#arr)"/>
+  <text x="28" y="314" class="lbl">tx_ready</text>
+  <path class="wire" d="M380,320 L380,540 L520,540" marker-end="url(#arr)"/>
+  <circle cx="380" cy="320" r="3" class="dot"/>
+
+  <!-- pwdata: bits 3 and 4 to the decoder, all bits passed through to tx_data -->
+  <path class="bus" d="M20,350 L240,350" />
+  <text x="28" y="344" class="lbl">pwdata[7:0]</text>
+  <circle cx="240" cy="350" r="4" class="dot"/>
+  <path class="wire" d="M240,350 L520,350" marker-end="url(#arr)"/>
+  <text x="440" y="344" class="tag" text-anchor="middle">[3]</text>
+  <circle cx="240" cy="380" r="4" class="dot"/>
+  <path class="wire" d="M240,380 L520,380" marker-end="url(#arr)"/>
+  <text x="440" y="374" class="tag" text-anchor="middle">[4]</text>
+  <path class="bus" d="M240,350 L240,720 L1220,720" marker-end="url(#arr)"/>
+
+  <!-- Inputs used by the mux only -->
+  <path class="wire" d="M20,570 L520,570" marker-end="url(#arr)"/>
+  <text x="28" y="564" class="lbl">rxf_full</text>
+  <path class="bus" d="M20,600 L520,600" marker-end="url(#arr)"/>
+  <text x="28" y="594" class="lbl">rxf_data[7:0]</text>
+  <path class="wire" d="M20,630 L520,630" marker-end="url(#arr)"/>
+  <text x="28" y="624" class="lbl">rx_ovr</text>
+  <path class="wire" d="M20,660 L520,660" marker-end="url(#arr)"/>
+  <text x="28" y="654" class="lbl">rx_err</text>
+
+  <!-- pwdata to tx_data pass-through -->
+  <text x="620" y="714" class="tag" text-anchor="middle">assign tx_data = pwdata</text>
+  <text x="1080" y="714" class="lbl">tx_data[7:0]</text>
+
+  <!-- Outputs -->
+  <path class="wire" d="M720,210 L1220,210" marker-end="url(#arr)"/>
+  <text x="1080" y="204" class="lbl">tx_start *</text>
+  <path class="wire" d="M720,270 L1220,270" marker-end="url(#arr)"/>
+  <text x="1080" y="264" class="lbl">rxf_pop *</text>
+  <path class="wire" d="M720,330 L1220,330" marker-end="url(#arr)"/>
+  <text x="1080" y="324" class="lbl">clr_ovr *</text>
+  <path class="wire" d="M720,360 L1220,360" marker-end="url(#arr)"/>
+  <text x="1080" y="354" class="lbl">clr_err *</text>
+  <path class="bus" d="M720,540 L1220,540" marker-end="url(#arr)"/>
+  <text x="1080" y="534" class="lbl">prdata[7:0]</text>
+
+  <!-- Behaviour notes -->
+  <text x="750" y="392" class="body">tx_start = psel &amp; penable &amp; pwrite</text>
+  <text x="790" y="408" class="body">&amp; (paddr[3:2] == TXDATA) &amp; tx_ready</text>
+  <text x="750" y="430" class="body">rxf_pop = psel &amp; penable &amp; !pwrite</text>
+  <text x="790" y="446" class="body">&amp; (paddr[3:2] == RXDATA) &amp; !rxf_empty</text>
+  <text x="750" y="468" class="body">clr_ovr = psel &amp; penable &amp; pwrite</text>
+  <text x="790" y="484" class="body">&amp; (paddr[3:2] == STATUS) &amp; pwdata[3]</text>
+  <text x="750" y="506" class="body">clr_err = psel &amp; penable &amp; pwrite</text>
+  <text x="790" y="522" class="body">&amp; (paddr[3:2] == STATUS) &amp; pwdata[4]</text>
+
+  <text x="750" y="568" class="body">prdata by paddr[3:2]:</text>
+  <text x="765" y="584" class="body">RXDATA (01): rxf_data</text>
+  <text x="765" y="600" class="body">STATUS (10): {3'b0, rx_err, rx_ovr,</text>
+  <text x="864" y="616" class="body">rxf_full, rxf_empty, tx_ready}</text>
+  <text x="765" y="632" class="body">other: 8'h00</text>
+
+  <!-- Legend -->
+  <path class="bus" d="M180,782 L230,782"/>
+  <text x="238" y="786" class="body">multi-bit bus</text>
+  <circle cx="370" cy="782" r="3" class="dot"/>
+  <text x="380" y="786" class="body">branch (same net)</text>
+  <text x="530" y="786" class="body">* = one-cycle pulse</text>
+  <text x="180" y="818" class="body">paddr[1:0] are not connected. tx_data is a wire: uart_tx latches it when tx_start is high.</text>
+  <text x="180" y="834" class="body">rx_ovr and rx_err are held in rx_ovr_flag and rx_err_flag (module sticky_flag), outside apb_interface.</text>
+</svg>

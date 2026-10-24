@@ -1,0 +1,33 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# ** Note: (vsim-220) 'C:\Users\mpiatos\Documents\Cases\C232208-090326_exens_modelsim_ini\counter\modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_lfd2nx -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 20:49:23 on Oct 24,2026
+# Loading work.uart_burst_tb(fast)
+# Loading work.uart_apb_top(fast)
+# Loading work.apb_interface(fast)
+# Loading work.apb_decoder(fast)
+# Loading work.apb_rdata_mux(fast)
+# Loading work.synchronizer(fast)
+# Loading work.fifo(fast)
+# Loading work.uart_rx(fast)
+# Loading work.rx_controller(fast)
+# Loading work.debouncer(fast)
+# Loading work.rx_counter(fast)
+# Loading work.rx_shifter(fast)
+# Loading work.uart_tx(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# uart_burst_tb: 20 checks passed, 0 failed
+# uart_burst_tb: PASS
+# ** Note: $finish    : C:/Users/mpiatos/Documents/Personal/design_projects/uart/tb/uart_burst_tb.v(181)
+#    Time: 19486820 ns  Iteration: 1  Instance: /uart_burst_tb
+# 1
+# Break in Module uart_burst_tb at C:/Users/mpiatos/Documents/Personal/design_projects/uart/tb/uart_burst_tb.v line 181
+# End time: 21:06:06 on Oct 24,2026, Elapsed time: 0:16:43
+# Errors: 0, Warnings: 0

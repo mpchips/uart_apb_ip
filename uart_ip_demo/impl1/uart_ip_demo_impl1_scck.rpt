@@ -1,0 +1,47 @@
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: X-2025.09LR-SP1
+Install: C:\lscc\radiant\2026.1.1\synpbase
+OS: Windows 10 or later
+Hostname: LMNL115229
+
+Implementation : impl1
+
+# Written on Sun Oct 25 00:15:27 2026
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "C:\lscc\radiant\2026.1.1\scripts\tcl\flow\radiant_synplify_vars.tcl"
+                         "C:\Users\mpiatos\Documents\Personal\design_projects\uart\uart_ip_demo\impl1\uart_ip_demo_impl1_cpe.ldc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start     Requested     Requested     Clock        Clock                Clock
+Level     Clock     Frequency     Period        Type         Group                Load 
+---------------------------------------------------------------------------------------
+0 -       pclk      25.0 MHz      40.000        declared     default_clkgroup     94   
+=======================================================================================
+
+
+Clock Load Summary
+******************
+
+          Clock     Source         Clock Pin                   Non-clock Pin     Non-clock Pin
+Clock     Load      Pin            Seq Example                 Seq Example       Comb Example 
+----------------------------------------------------------------------------------------------
+pclk      94        pclk(port)     uart_tx.data_reg[7:0].C     -                 -            
+==============================================================================================

@@ -1,0 +1,3 @@
+BEGIN 1:uart_rx:fast:work
+    rx_done :  1:uart_reg_tb:fast:work
+END 

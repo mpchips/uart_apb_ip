@@ -1,0 +1,4 @@
+-gui
+-msgset "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/promote.xml"
+
+-g REGISTER_INIT:ON

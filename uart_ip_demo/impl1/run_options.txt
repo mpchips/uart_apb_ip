@@ -1,0 +1,103 @@
+#--  Synopsys, Inc.
+#--  Version X-2025.09LR-SP1
+#--  Project file C:\Users\mpiatos\Documents\Personal\design_projects\uart\uart_ip_demo\impl1\run_options.txt
+#--  Written on Sun Oct 25 00:14:45 2026
+
+
+#project files
+add_file -constraint "C:/lscc/radiant/2026.1.1/scripts/tcl/flow/radiant_synplify_vars.tcl"
+add_file -constraint "uart_ip_demo_impl1_cpe.ldc"
+add_file -verilog "C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v"
+add_file -vhdl -lib pmi "C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.vhd"
+add_file -verilog -vlog_std v2001 "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/apb_decoder.v"
+add_file -verilog -vlog_std v2001 "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/apb_interface.v"
+add_file -verilog -vlog_std v2001 "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/apb_rdata_mux.v"
+add_file -verilog -vlog_std v2001 "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/debouncer.v"
+add_file -verilog -vlog_std v2001 "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v"
+add_file -verilog -vlog_std v2001 "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_controller.v"
+add_file -verilog -vlog_std v2001 "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_counter.v"
+add_file -verilog -vlog_std v2001 "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_shifter.v"
+add_file -verilog -vlog_std v2001 "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/synchronizer.v"
+add_file -verilog -vlog_std v2001 "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/uart_apb_top.v"
+add_file -verilog -vlog_std v2001 "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/uart_rx.v"
+add_file -verilog -vlog_std v2001 "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/uart_tx.v"
+add_file -verilog -vlog_std v2001 "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/sticky_flag.v"
+
+
+#implementation: "impl1"
+impl -add impl1 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+set_option -include_path {C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo}
+
+#device options
+set_option -technology LFD2NX
+set_option -part LFD2NX_40
+set_option -package CABGA256C
+set_option -speed_grade -9
+
+#compilation/mapping options
+set_option -top_module "uart_apb_top"
+
+# hdl_compiler_options
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency 200
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_structural_verilog 0
+set_option -write_vhdl 0
+set_option -design_rule_fanout_limit 0
+set_option -seqshift_chain_opt 0
+
+# Lattice XP
+set_option -maxfan 1000
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -pipe 1
+set_option -infer_seqShift 1
+set_option -forcegsr false
+set_option -fix_gated_and_generated_clocks 0
+set_option -rw_check_on_ram 0
+set_option -update_models_cp 0
+set_option -syn_edif_array_rename 0
+set_option -Write_declared_clocks_only 1
+set_option -seqshift_no_replicate 0
+set_option -run_design_rule_checker 0
+set_option -syn_reduce_controlset_size 0
+set_option -stop_shift_reset_merging 0
+
+# Lattice LFD2NX
+set_option -lattice_software Radiant
+set_option -const_mult_threshold 3
+set_option -s44_optimization 0
+set_option -infer_widefn 1
+set_option -pack_rst_largeram 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./uart_ip_demo_impl1.vm"
+
+#set log file 
+set_option log_file "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/impl1/uart_ip_demo_impl1.srf" 
+impl -active "impl1"

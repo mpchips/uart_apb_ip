@@ -1,0 +1,9 @@
+-w
+-gui
+-msgset "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/promote.xml"
+-n 1
+-t 1
+-s 1
+-cores 1
+-hsp m
+-exp parPathBased=OFF

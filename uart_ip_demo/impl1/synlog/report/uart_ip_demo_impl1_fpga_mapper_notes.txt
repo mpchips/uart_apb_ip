@@ -1,0 +1,20 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF135 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\fifo.v":44:4:44:9|RAM rx_fifo.buffer\[0\][7:0] is 16 words by 8 bits.
+@N: MO231 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\rx_controller.v":41:4:41:9|Found counter in view:work.rx_controller(verilog) instance bit_idx[3:0] 
+@N: MO231 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\debouncer.v":60:4:60:9|Found counter in view:work.debouncer_1302s_0_1_2(verilog) instance count[10:0] 
+@N: MO231 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\rx_counter.v":14:4:14:9|Found counter in view:work.rx_counter_2604s(verilog) instance count[11:0] 
+@N: MO231 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\uart_tx.v":91:4:91:9|Found counter in view:work.uart_tx_25s_9600s_2604s_0_1_2_3(verilog) instance bit_idx[3:0] 
+@N: MO231 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\uart_tx.v":105:4:105:9|Found counter in view:work.uart_tx_25s_9600s_2604s_0_1_2_3(verilog) instance count[11:0] 
+@N: MF794 |RAM rx_fifo.buffer\[0\][7:0] required 16 registers during mapping 
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"c:\users\mpiatos\documents\personal\design_projects\uart\src\fifo.v":44:4:44:9|Generating RAM rx_fifo.buffer\[0\][7:0]
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: BW278 :"c:/users/mpiatos/documents/personal/design_projects/uart/uart_ip_demo/impl1/uart_ip_demo_impl1_cpe.ldc":3:0:3:0|Clock pclk source pin pclk.pclk
+@N: BW279 :"c:/users/mpiatos/documents/personal/design_projects/uart/uart_ip_demo/impl1/uart_ip_demo_impl1_cpe.ldc":3:0:3:0|Clock pclk drive pin pclk.pclk
+@N: BW281 :"c:/users/mpiatos/documents/personal/design_projects/uart/uart_ip_demo/impl1/uart_ip_demo_impl1_cpe.ldc":3:0:3:0|Forward annotating clock pclk on drive pins would remove that clock from 104 clock pins including rx_err_flag.flag.CK
+@N: MT615 |Found clock pclk with period 40.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

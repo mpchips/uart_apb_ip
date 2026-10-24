@@ -1,0 +1,9 @@
+-ver "C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v"
+-lib pmi -vhd "C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.vhd"
+-ver "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/apb_interface.v"
+-sdc -normal "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/source/impl1/impl1.sdc"
+-path "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo"
+-top apb_interface
+-isModule
+-a "LFD2NX"
+-t "LFD2NX-40"

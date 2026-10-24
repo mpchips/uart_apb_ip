@@ -1,0 +1,88 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "00:15:58    25-Oct-2026",
+	"Working Directory" : "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/impl1",
+	"Install" : "C:/lscc/radiant/2026.1.1/synpbase"
+},
+"impl1" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "00:14:45",
+   "Runtime" : "01m:13s",
+   "Executable Run Time" : "01m:12s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "00:14:45",
+      "Runtime" : "01m:13s",
+      "Executable Run Time" : "01m:12s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "00:14:45",
+         "Runtime" : "53s",
+         "Executable Run Time" : "52s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "00:14:45",
+            "Runtime" : "40s",
+            "Executable Run Time" : "39s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Run Success" : "yes",
+               "Run Start Time" : "00:14:45",
+               "Run Time" : "39s",
+               "Exe Run Time" : "38s",
+               "max_parallel_jobs" : "4",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Run Success" : "yes",
+               "Run Start Time" : "00:15:24",
+               "Run Time" : "01s",
+               "Exe Run Time" : "01s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "0",
+            "Run Success" : "yes",
+            "Run Start Time" : "00:15:25",
+            "Run Time" : "13s",
+            "Exe Run Time" : "13s",
+            "max_parallel_jobs" : "4",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "00:15:38",
+         "Runtime" : "20s",
+         "Executable Run Time" : "20s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Run Success" : "yes",
+            "Run Start Time" : "00:15:38",
+            "Run Time" : "20s",
+            "Exe Run Time" : "20s",
+            "max_parallel_jobs" : "4",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

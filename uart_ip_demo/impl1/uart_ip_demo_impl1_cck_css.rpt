@@ -1,0 +1,120 @@
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: X-2025.09LR-SP1
+Install: C:\lscc\radiant\2026.1.1\synpbase
+OS: Windows 10 or later
+Hostname: LMNL115229
+
+Implementation : impl1
+
+# Written on Sun Oct 25 00:15:35 2026
+
+##### DESIGN INFO #######################################################
+
+Top View:                "uart_apb_top"
+Constraint File(s):      "C:\lscc\radiant\2026.1.1\scripts\tcl\flow\radiant_synplify_vars.tcl"
+                         "C:\Users\mpiatos\Documents\Personal\design_projects\uart\uart_ip_demo\impl1\uart_ip_demo_impl1_cpe.ldc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 2 constraints
+
+
+##### DETAILS ############################################################
+
+
+Clock Summary
+*************
+
+          Start     Requested     Requested     Clock        Clock                Clock
+Level     Clock     Frequency     Period        Type         Group                Load 
+---------------------------------------------------------------------------------------
+0 -       pclk      25.0 MHz      40.000        declared     default_clkgroup     94   
+=======================================================================================
+
+
+Clock Load Summary
+******************
+
+          Clock     Source         Clock Pin            Non-clock Pin     Non-clock Pin
+Clock     Load      Pin            Seq Example          Seq Example       Comb Example 
+---------------------------------------------------------------------------------------
+pclk      94        pclk(port)     uart_tx.tx_out.C     -                 -            
+=======================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+pclk         pclk       |     40.000           |     No paths         |     No paths         |     No paths                         
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:paddr[0]
+p:paddr[1]
+p:paddr[2]
+p:paddr[3]
+p:penable
+p:prdata[0]
+p:prdata[1]
+p:prdata[2]
+p:prdata[3]
+p:prdata[4]
+p:prdata[5]
+p:prdata[6]
+p:prdata[7]
+p:prstn
+p:psel
+p:pwdata[0]
+p:pwdata[1]
+p:pwdata[2]
+p:pwdata[3]
+p:pwdata[4]
+p:pwdata[5]
+p:pwdata[6]
+p:pwdata[7]
+p:pwrite
+p:rxd
+p:txd
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report
+
