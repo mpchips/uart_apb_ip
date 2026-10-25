@@ -1,4 +1,0 @@
-###File created by Lattice CPE. Do not modify.###
-create_clock -name {pclk} -period 40 [get_ports pclk] originating in top was kept as is.
-
-

@@ -1,4 +1,0 @@
-###File created by Lattice CPE. Do not modify.###
-set_hierarchy_separator /
-create_clock -name {pclk} -period 40 [get_ports pclk]
-##Original File: C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/source/impl1/impl1.sdc

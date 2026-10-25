@@ -1,9 +1,0 @@
--ver "C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.v"
--lib pmi -vhd "C:/lscc/radiant/2026.1.1/ip/pmi/pmi_lfd2nx.vhd"
--ver "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/apb_decoder.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/apb_interface.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/apb_rdata_mux.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/debouncer.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/fifo.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_controller.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_counter.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/rx_shifter.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/synchronizer.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/uart_apb_top.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/uart_rx.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/uart_tx.v" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/src/sticky_flag.v"
--sdc "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/source/impl1/impl1.sdc"
--path "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo" "C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo"
--top uart_apb_top
--isTop
--a "LFD2NX"
--t "LFD2NX-40"

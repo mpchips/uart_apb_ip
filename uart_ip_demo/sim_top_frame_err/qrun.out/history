@@ -1,3 +1,0 @@
-- Entry: 1
-  Time: Sun Oct 25 01:05:35 2026
-  Command: C:\lscc\radiant\2026.1.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -clean -f C:/Users/mpiatos/Documents/Personal/design_projects/uart/uart_ip_demo/sim_top_frame_err/sim_top_frame_err.f 

@@ -96,9 +96,8 @@ A typical UART transmit and receive sequence would take place as follows:
 |-|-|
 | `specs.md` | design specification |
 | `src/` | RTL (Verilog); top module is `uart_apb_top` |
-| `tb/` | self-checking testbenches and the regression script `run_all.do` |
+| `sim/` | self-checking testbenches and the regression script `run_all.do` |
 | `figs/` | system, APB interface and receiver diagrams |
-| `uart_ip_demo/` | Lattice Radiant project for the Certus-NX (`LFD2NX-40-9BG256C`) |
 | `refs/` | AMBA specifications (ARM IHI 0011A, ARM IHI 0024D) |
 
 ## Simulation
@@ -111,9 +110,9 @@ The testbenches are plain Verilog and self-checking: each one counts passed and 
 From the project folder, create a working folder and run the regression:
 
 ```bash
-mkdir sim
-cd sim
-vsim -c -do "do ../tb/run_all.do"
+mkdir sim_run
+cd sim_run
+vsim -c -do "do ../sim/run_all.do"
 ```
 
 Expected output (end of the transcript):
@@ -145,7 +144,7 @@ All tests pass in one regression run (2026-10-25). `vlog -lint` reports 0 errors
 
 ## Synthesis Results
 
-The design was synthesized, placed and routed with Lattice Radiant 2026.1.1 (Synplify Pro) for the Certus-NX `LFD2NX-40-9BG256C` (speed grade 9, 1.0 V), with a 25 MHz clock constraint on `pclk`. I/O pins are not assigned, since the design is not tested on hardware. Results are from the run of 2026-10-25.
+The design was synthesized, placed and routed with Lattice Radiant 2026.1.1 (Synplify Pro) for the Certus-NX `LFD2NX-40-9BG256C` (speed grade 9, 1.0 V), with a 25 MHz clock constraint on `pclk`. I/O pins are not assigned, since the design is not tested on hardware.
 
 | Resource | Used | Available |
 |-|-|-|
@@ -211,10 +210,9 @@ Claude Code's role in the design was advisory:
 |-|-|-|
 | `specs.md` | Author | wording suggestions and edits where the author asked for them |
 | `src/` (RTL) | Author (some modules adapted from an earlier project of the author's) | reviews only |
-| `tb/` (testbenches, `run_all.do`) | Claude Code | written on the author's request; the author set what each test must cover |
+| `sim/` (testbenches, `run_all.do`) | Claude Code | written on the author's request; the author set what each test must cover |
 | `figs/` (diagrams) | Claude Code | drawn and rendered on the author's request based on the written specification and RTL, reviewed by the author |
 | `README.md` | Claude Code, edited by the author | derived from `specs.md`, keeping the author's wording where possible |
-| `uart_ip_demo/` (Radiant project) | Author | none; Claude Code read the reports to fill in *Synthesis Results* |
 | `refs/` | Arm (third party) | none |
 
 Simulation regressions were run by Claude Code and by the author; the Radiant runs were done by the author.

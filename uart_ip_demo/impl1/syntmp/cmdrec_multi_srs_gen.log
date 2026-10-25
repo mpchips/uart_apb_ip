@@ -1,7 +1,0 @@
-C:\lscc\radiant\2026.1.1\synpbase\bin64\syn_nfilter.exe  -link  -top  uart_apb_top  -multisrs  C:\Users\mpiatos\Documents\Personal\design_projects\uart\uart_ip_demo\impl1\synwork\uart_ip_demo_impl1_comp.srs  -osyn  C:\Users\mpiatos\Documents\Personal\design_projects\uart\uart_ip_demo\impl1\synwork\uart_ip_demo_impl1_mult.srs  -log  C:\Users\mpiatos\Documents\Personal\design_projects\uart\uart_ip_demo\impl1\synlog\uart_ip_demo_impl1_multi_srs_gen.srr 
-relcom:..\..\..\..\..\..\..\..\..\lscc\radiant\2026.1.1\synpbase\bin64\syn_nfilter.exe -link -top uart_apb_top -multisrs ..\synwork\uart_ip_demo_impl1_comp.srs -osyn ..\synwork\uart_ip_demo_impl1_mult.srs -log ..\synlog\uart_ip_demo_impl1_multi_srs_gen.srr
-rc:0 success:1 runtime:1
-file:..\synwork\uart_ip_demo_impl1_comp.srs|io:i|time:1792858520|size:18577|exec:0|csum:F8DC38B984E060CE2E8D7DA529A7EEB8
-file:..\synwork\uart_ip_demo_impl1_mult.srs|io:o|time:1792858525|size:5005|exec:0|csum:
-file:..\synlog\uart_ip_demo_impl1_multi_srs_gen.srr|io:o|time:1792858525|size:1189|exec:0|csum:
-file:..\..\..\..\..\..\..\..\..\lscc\radiant\2026.1.1\synpbase\bin64\syn_nfilter.exe|io:i|time:1779441299|size:10887168|exec:1|csum:7C0A7065AC7D00E791C5352FDA1F66ED
